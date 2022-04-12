@@ -6,15 +6,20 @@
 
 body {
     font-size: 16px;
-    
+    font-family: Helvetica, sans-serif;
 }
 
 header {
-    background-color: #3161E0;
+    background-color: #3656E4;
+    font-size: 14px;
 }
 
 header .container {
     padding: 0.6rem 0;
+}
+
+h1 {
+    font-size: 2.5rem;
 }
 
 hr {
@@ -67,29 +72,54 @@ hr {
  }
 
 .login {
-    text-align: right;
-    padding-top: 1rem;
+    justify-content: end;
+}
+
+.btn {
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 1rem;
 }
 
 .small-btn {
     background-color: white;
-    padding: .3rem;
-    border-radius: 20px;
-    text-decoration: none;
+    padding: .5rem;
     color: black;
+}
 
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
+.btn-dark {
+    background-color: #23272A;
+    color: white;
 }
 
 .bg-jumbotron {
-    background-color: #00008B;
+    background-color: #3858E5;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .jumbotron-content {
-    background-color: #EE82EE;
+    text-align: center;
+    color: white;
     width: 80%;
     min-height: 300px;
     margin: auto;
-    border: 1px dashed black;
+    padding: 4rem;
+}
+
+.jumbotron-content p {
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.jumbo-btn {
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 .col {
