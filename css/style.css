@@ -19,6 +19,10 @@ header .container {
 }
 
 h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
     font-size: 2.5rem;
 }
 
@@ -122,22 +126,21 @@ hr {
     gap: 1.5rem;
 }
 
-.col {
-    border: 1px dashed black;
-}
-
 .large-col {
-    background-color: #1E90FF;
     flex-grow: 2;
     min-width: 200px;
     min-height: 300px;
 }
 
 .small-col {
-    background-color: #FFC0CB;
     flex-grow: 1;
     min-width: 100px;
     min-height: 300px;
+    width: 20%;
+}
+
+.small-col p {
+    margin-top: 1rem;
 }
 
 .bg-grey {
