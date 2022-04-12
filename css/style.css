@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    font-size: 16px;
+    
+}
+
 header {
-    background-color: #ADD8E6;
+    background-color: #3161E0;
 }
 
 header .container {
@@ -35,24 +40,44 @@ hr {
     flex-direction: row-reverse;
 }
 
-.logo, .link, .login {
-    background-color: #DAA520;
-    border: 1px dashed black;
-    padding: 0.3rem;
+.h-side, .nav {
+    padding: 0.5rem;
     min-width: 100px;
 }
 
-.logo, .login {
+.h-side{
     width: 20%;
 }
 
-.link {
+.nav {
     flex-grow: 1;
-    text-align: center;
+    padding-top: 1rem;
 }
+
+.nav ul {
+    justify-content: space-around;
+}
+
+.nav li {
+    list-style: none;
+}
+ .nav a {
+    text-decoration: none;
+    color: white;
+ }
 
 .login {
     text-align: right;
+    padding-top: 1rem;
+}
+
+.small-btn {
+    background-color: white;
+    padding: .3rem;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+
 }
 
 .bg-jumbotron {
