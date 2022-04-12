@@ -105,6 +105,11 @@ hr {
     color: white;
 }
 
+.btn-violet {
+    color: white;
+    background-color: #8EA1E1;
+}
+
 .bg-jumbotron {
     background-color: #3858E5;
     background-image: url(../img/jumbo.png);
