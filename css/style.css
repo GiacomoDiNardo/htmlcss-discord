@@ -90,9 +90,7 @@ hr {
 }
 
 .small-btn {
-    background-color: white;
     padding: .5rem;
-    color: black;
 }
 
 .btn-white {
@@ -175,44 +173,61 @@ p {
     background-color: #23272A;
 }
 
+.ft-container {
+    gap: 2rem;
+    border-bottom: 2px solid #8EA1E1;
+}
+
 .ft-col {
     min-height: 400px;
+    padding-bottom: 2rem;
+}
+
+.ft-col h3, .ft-col h4 {
+    color: #8EA1E1;
 }
 
 .ft-col.left-col {
-    background-color: #F08080;
     flex-grow: 1;
-    border: 1px dashed black;
+    max-width: calc(100% / 5 * 1.5);
+    color: white;
+}
+
+.language {
+    padding-top: 20px;
+}
+
+.left-col img {
+    width: 30px;
 }
 
 .ft-col.right-col {
-    background-color: #20B2AA;
     flex-grow: 3;
-    border: 1px dashed black;
 }
 
 .in-col {
     flex-grow: 1;
-    border: 1px dashed white;
+}
+
+.in-col ul {
+    list-style: none;
+}
+
+.in-col a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
 }
 
 .bg-endpage {
-    background-color: #7FFFD4;
-    padding: 1rem 0;
+    padding-top: 2rem;
 }
 
 .clearfix {
     content: "";
     display: table;
     clear: both;
-}
-
-.ft-logo, .ft-button {
-    min-width: 50px;
-    background-color: #FFB6C1;
-    padding: 0.3rem;
-    border: 1px dashed black;
-    text-align: center;
 }
 
 .ft-logo {
