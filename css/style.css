@@ -137,16 +137,14 @@ hr {
 }
 
 .large-col {
-    flex-grow: 2;
     min-width: 200px;
     min-height: 300px;
+    flex-shrink: 0;
 }
 
 .small-col {
-    flex-grow: 1;
     min-width: 100px;
     min-height: 300px;
-    width: 20%;
     padding-top: 30px;
 }
 
