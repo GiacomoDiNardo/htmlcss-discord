@@ -175,7 +175,7 @@ p {
 
 .ft-container {
     gap: 2rem;
-    border-bottom: 2px solid #8EA1E1;
+    border-bottom: 2px solid #7289DA;
 }
 
 .ft-col {
@@ -184,7 +184,7 @@ p {
 }
 
 .ft-col h3, .ft-col h4 {
-    color: #8EA1E1;
+    color: #7289DA;
 }
 
 .ft-col.left-col {
