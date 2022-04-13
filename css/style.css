@@ -199,6 +199,13 @@ p {
 
 .left-col img {
     width: 30px;
+    vertical-align: middle;
+}
+
+.social-media .fa-brands {
+    padding-top: 15px;
+    padding-right: 20px;
+    font-size: 25px;
 }
 
 .ft-col.right-col {
