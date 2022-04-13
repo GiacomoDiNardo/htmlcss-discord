@@ -227,6 +227,10 @@ p {
     padding: 15px 0;
 }
 
+.in-col a:hover {
+    text-decoration: underline;
+}
+
 .bg-endpage {
     padding-top: 2rem;
 }
