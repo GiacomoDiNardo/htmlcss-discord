@@ -1,0 +1,32 @@
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.btn-white:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.btn-dark:hover {
+    background-color: #4a4f53;
+}
+
+.btn-violet:hover {
+    background-color: #718add;
+}
+
+.wave-1hkxOo {
+    color: #F6F6F6;
+    display: block;
+    width: max-content;
+}
+
+.wave-1hkxOo.under {
+    color: #F6F6F6;
+    display: block;
+    width: max-content;
+    transform: rotate(180deg);
+}
+
+.in-col a:hover {
+    text-decoration: underline;
+}
